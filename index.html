@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code With Ayaan</title>
+    <style>
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    animation-name: box;
+    border-radius: 50%;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+h1{
+    animation-name: h;
+    animation-duration:5s ;
+
+}
+@keyframes box {
+    to{
+        background-color: purple;
+        top: 100px;
+        left: 500px;
+        rotate: 360deg;
+        color: white;
+
+    }
+    from{
+        background-color: white;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Code With Ayaan</h1><br>
+    </div>
+
+    
+</body>
+</html>
